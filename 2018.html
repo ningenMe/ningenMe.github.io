@@ -17,18 +17,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	
+	<!-- html include -->
+	<script type="text/javascript">
+        $(document).ready(function() {
+           $('#header_include').load('header.html');
+		   $('#footer_include').load('footer.html');
+		   $('#2018program_include').load('2018program.html');
+		   $('#2018comic_include').load('2018comic.html');
+		   $('#2017comic_include').load('2017comic.html');
+        });
+    </script>
 
 </head>
 
 <body style="padding-top:60px">
-    <!-- header -->
+    
+	<!-- header -->
 	<div id="header_include"></div>
-    <script type="text/javascript">
-        $(document).ready(function() {
-           $('#header_include').load('header.html');
-        });
-    </script>
-
     
     <div class="container">
         <nav aria-label="example">
@@ -47,12 +53,7 @@
                     					
 					<!-- 2018program -->
 					<div id="2018program_include"></div>
-					<script type="text/javascript">
-						$(document).ready(function() {
-						$('#2018program_include').load('2018program.html');
-						});
-					</script>
-					
+										
 				</div>
             </div>
             <div class="card mb-3">
@@ -63,11 +64,6 @@
 					
 					<!-- 2018comic -->
 					<div id="2018comic_include"></div>
-					<script type="text/javascript">
-						$(document).ready(function() {
-						$('#2018comic_include').load('2018comic.html');
-						});
-					</script>
 					
                 </div>
             </div>
@@ -76,11 +72,6 @@
 	
     <!-- footer -->
 	<div id="footer_include"></div>
-    <script type="text/javascript">
-        $(document).ready(function() {
-           $('#footer_include').load('footer.html');
-        });
-    </script>
  
 </body>
 
