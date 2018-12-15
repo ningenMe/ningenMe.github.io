@@ -178,11 +178,15 @@
             </div>
         </div>
     </div>
-    <footer class="py-4 bg-dark text-light">
-        <div class=" container text-center">
-            &copy; 2018 kuru.
-        </div>
-    </footer>
+	
+	<!-- footer -->
+	<div id="footer_include"></div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+           $('#footer_include').load('footer.html');
+        });
+    </script>
+ 
 </body>
 
 </html>
