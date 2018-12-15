@@ -51,10 +51,13 @@
                     <a href="https://ningenme.hatenablog.com/" target="_blank">Comic and others</a>
                 </div>
                 <div class="card-body">
-					<h6><span class="badge badge-dark">2017-12-10</span></h6>
-                    <a href="https://ameblo.jp/ningenme/entry-12335139547.html" target="_blank"><ins>【漫画】2017年の漫画振り返り</ins></a>
-                    <h6><span class="badge badge-dark">2017-10-23</span></h6>
-                    <a href="https://ameblo.jp/ningenme/entry-12323588612.html" target="_blank"><ins>【漫画】ランウェイで笑って 1巻【感想】</ins></a>
+					<!-- 2017comic -->
+					<div id="2017comic_include"></div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+						$('#2017comic_include').load('2017comic.html');
+						});
+					</script>
                 </div>
             </div>
         </div>
