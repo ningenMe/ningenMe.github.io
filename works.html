@@ -21,26 +21,14 @@
 </head>
 
 <body style="padding-top:60px">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-bland" style="color: #fff" href="https://ningenme.github.io/">kurupage</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links-top" aria-controls="links-top" aria-expanded="false" aria-label="ナビげーししょん">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class=" collapse navbar-collapse" id="links-top">
-            <ul class="navbar-nav ml-auto">
-                <a class="nav-link" style="color: #fff" href="https://twitter.com/ningenMe" target="_blank">Twitter</a>
-                <a class="nav-link" style="color: #fff" href="https://beta.atcoder.jp/users/ningenMe" target="_blank">AtCoder</a>
-                <a class="nav-link" style="color: #fff" href="https://github.com/ningenMe" target="_blank">GitHub</a>
-                <a class="nav-link" style="color: #fff" href="https://www.nicovideo.jp/mylist/55210388" target="_blank">niconico</a>
-                <a class="nav-link" style="color: #fff" href="https://qiita.com/ningenMe" target="_blank">Qiita</a>
-                <a class="nav-link" style="color: #fff" href="https://ningenme.hatenablog.com/" target="_blank">Hatena</a>
-                <a class="nav-link" style="color: #fff" href="https://profile.ameba.jp/ameba/ningenme" target="_blank">Ameba</a>
-                <a class="nav-link" style="color: #fff" href="mailto:amohkuru@gmail.com">Gmail</a>
-            </ul>
-            <form class="form-inline my-2 my-lg-0"></form>
-        </div>
-    </nav>
+    
+	<!-- header -->
+	<div id="header_include"></div>
+	<script type="text/javascript">
+        $(document).ready(function() {
+           $('#header_include').load('header.html');
+        });
+    </script>
 
     <div class="container">
 
@@ -194,11 +182,14 @@
         </div>
     </div>
 
-    <footer class="py-4 bg-dark text-light">
-        <div class=" container text-center">
-            &copy; 2018 kuru.
-        </div>
-    </footer>
+	<!-- footer -->
+	<div id="footer_include"></div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+           $('#footer_include').load('footer.html');
+        });
+    </script>
+	
 </body>
 
 </html>
