@@ -33,6 +33,13 @@
             $('#speed_include').load('compro/speed.html');
             $('#accumulate_include').load('compro/accumulate.html');
             $('#dp_include').load('compro/dp.html');
+            $('#enumerate_include').load('compro/enumerate.html');
+            $('#math_include').load('compro/math.html');
+            $('#struct_include').load('compro/struct.html');
+            $('#game_include').load('compro/game.html');
+            $('#graph_include').load('compro/graph.html');
+            $('#geometry_include').load('compro/geometry.html');
+            $('#tech_include').load('compro/tech.html');
         });
     </script>
 
@@ -50,173 +57,19 @@
         <div class="card mb-1 bg-light">
             AtCoderで400点以上に相当する難易度の解いた問題を解法ジャンルごとにメモ。
         </div>
-
-        <br>
-        <h4>貪欲</h4>
-        <div id="greedy_include"></div>
-
-        <br>
-        <h4>探索</h4>
+       
         <div id="search_include"></div>
-
-        <br>
-        <h4>高速化</h4>
+        <div id="greedy_include"></div>
         <div id="speed_include"></div>
-        
-        <br>
-        <h4>塁積</h4>
         <div id="accumulate_include"></div>
-        
-        <br>
-        <h4>dp</h4>
         <div id="dp_include"></div>
-        
-        <br>
-        <h4>数え上げ</h4>
-
-        <h6>Combination mod・逆元</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc024/tasks/abc024_d" target="_blank">D - 動的計画法</a>
-            <a href="https://atcoder.jp/contests/abc021/tasks/abc021_d" target="_blank">D - 多重ループ</a>
-        </div>
-
-        <h6>確率Combination</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc011/tasks/abc011_4" target="_blank">D - 大ジャンプ</a>
-        </div>
-
-        <h6>多倍長 mod</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc030/tasks/abc030_d" target="_blank">D - へんてこ辞書</a>
-        </div>
-
-        <h6>包除原理</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc020/tasks/abc020_d" target="_blank">D - LCM Rush</a>
-            <a href="https://atcoder.jp/contests/abc003/tasks/abc003_4" target="_blank">D - AtCoder社の冬</a>
-        </div>
-
-        <br>
-        <h4>数学</h4>
-
-        <h6>部分集合</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc056/tasks/arc070_b" target="_blank">D - No Need</a>
-        </div>
-
-        <h6>GCD・LCMの性質を利用</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc019/tasks/abc019_4" target="_blank">D - 高橋くんと木の直径</a>
-        </div>
-
-        <h6>自然数nに対するk進数表示のkの範囲</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc044/tasks/arc060_b" target="_blank">D - 桁和 / Digit Sum</a>
-        </div>
-
-        <h6>式変形</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc044/tasks/arc060_b" target="_blank">D - 桁和 / Digit Sum</a>
-            <a href="https://atcoder.jp/contests/abc024/tasks/abc024_d" target="_blank">D - 動的計画法</a>
-        </div>
-
-        <h6>式変形による高速化(オーダーを減らす)</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc058/tasks/arc071_b" target="_blank">D - 井井井 / ###</a>
-        </div>
-
-        <br>
-        <h4>グラフ</h4>
-
-        <h6>拡張ダイクストラ法(逆辺)</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc035/tasks/abc035_d" target="_blank">D - トレジャーハント</a>
-        </div>
-
-        <h6>ワーシャルフロイド法</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc012/tasks/abc012_4" target="_blank">D - バスと避けられない運命</a>
-        </div>
-
-        <h6>ベルマンフォード法</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc061/tasks/abc061_d" target="_blank">D - Score Attack</a>
-        </div>
-
-        <h6>Union Find Tree</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc049/tasks/arc065_b" target="_blank">D - 連結 / Connectivity</a>
-            <a href="https://atcoder.jp/contests/abc040/tasks/abc040_d" target="_blank">D - 道路の老朽化対策について</a>
-        </div>
-
-        <h6>木の葉から最も遠い頂点との距離は直径</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc019/tasks/abc019_4" target="_blank">D - 高橋くんと木の直径</a>
-        </div>
-
-        <h6>最小カット</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc010/tasks/abc010_4" target="_blank">D - 浮気予防</a>
-        </div>
-
-        <h6>Lowest Common Ancestor</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc014/tasks/abc014_4" target="_blank">D - 閉路</a>
-        </div>
-
-        <br>
-        <h4>データ構造</h4>
-
-        <h6>Binary Indexed Tree Range Sum Query</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc038/tasks/abc038_d" target="_blank">D - プレゼント</a>
-        </div>
-
-        <br>
-        <h4>ゲーム</h4>
-
-        <h6>ターンの偶奇</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc048/tasks/arc064_b" target="_blank">D - An Ordinary Game</a>
-        </div>
-
-        <h6>終状態を考える(帰納法)</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc059/tasks/arc072_b" target="_blank">D - Alice&amp;Brown</a>
-        </div>
-
-        <br>
-        <h4>幾何</h4>
-
-        <h6>線分交差判定</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc016/tasks/abc016_4" target="_blank">D - 一刀両断</a>
-        </div>
-
-        <h6>相似図形の重心</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc022/tasks/abc022_d" target="_blank">D - Big Bang</a>
-        </div>
-
-        <h6>三角形を成す角度で二分探索</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc033/tasks/abc033_d" target="_blank">D - 三角形の分類</a>
-        </div>
-
-        <br>
-        <h4>テクニック</h4>
-
-        <h6>クエリ先読み</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc040/tasks/abc040_d" target="_blank">D - 道路の老朽化対策について</a>
-        </div>
-
-        <h6>最終状態から逆算</h6>
-        <div class="card mb-1 bg-light">
-            <a href="https://atcoder.jp/contests/abc048/tasks/arc064_b" target="_blank">D - An Ordinary Game</a>
-        </div>
-
-
+        <div id="enumerate_include"></div>
+        <div id="math_include"></div>
+        <div id="graph_include"></div>
+        <div id="struct_include"></div>
+        <div id="game_include"></div>
+        <div id="geometry_include"></div>
+        <div id="tech_include"></div>
     </div>
 
     <!-- footer -->
